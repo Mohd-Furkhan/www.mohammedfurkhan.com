@@ -1,0 +1,100 @@
+*
+{
+    box-sizing:border-box;
+    list-style:none;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+}
+nav div
+{
+    justify-content: end;
+}
+#menu-button:hover
+{
+    background-color: #ddd;
+    color:black;
+}
+section
+{
+    padding:20%;
+    text-align: center;
+}
+section:nth-child(odd)
+{
+    background-color:whitesmoke;
+}
+section:nth-child(even)
+{
+    background-color:#ececec;
+}
+p
+{
+    font-size:x-large;
+}
+b
+{
+    font-size:x-large;
+}
+div ul li
+{
+    font-size:x-large;
+}
+section div a
+{
+    display:block;
+    color:#ddd;
+    text-decoration: none;
+    padding:8px;
+}
+a
+{
+    background-color: black;
+}
+#linkedin-button:hover
+{
+    color:#ddd;
+    background-color:#0A66C2;
+}
+#github-button:hover
+{
+    color:#ddd;
+    background-color:#000000;
+}
+#gmail-button:hover
+{
+    color:#ddd;
+    background-color: #df5043;
+
+}
+#whatsapp-button:hover
+{
+    color:#ddd;
+    background-color:#25D366;
+}
+input[type="text"],
+input[type="email"],
+input[type="submit"]
+{
+    width:100%;
+    padding:8px;
+    border-radius:5px;
+}
+input[type="submit"]:hover
+{
+    cursor:pointer;
+    color:#ddd;
+    background-color: black;
+}
+.footer-color
+{
+    background-color:black;
+    color:#ddd;
+    text-align:center;
+}
