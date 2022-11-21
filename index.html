@@ -25,16 +25,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav text-center">
           <li class="nav-item">
-            <a class="nav-link active" id="menu-button" href="#home">Home</a>
+            <a class="nav-link active" id="nav-button" href="#home">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="menu-button" href="#about">About</a>
+            <a class="nav-link" id="nav-button" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="nav-button" href="#work">Work</a>
           </li> 
           <li class="nav-item">
-            <a class="nav-link" id="menu-button"  href="#contact">Contact</a>
+            <a class="nav-link" id="nav-button"  href="#contact">Contact</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="menu-button" href="New folder/Resume.pdf" target="_blank">Resume</a>
+            <a class="nav-link" id="nav-button" href="New folder/Resume.pdf" target="_blank">Resume</a>
           </li>
         </ul>
         </div>
@@ -42,43 +45,88 @@
   </nav>
   <main>
       <section id="home">
-        <div class="container-fluid">
           <div class="display-4">Hi,I am</div>
           <div class="display-2">Mohammed Furkhan</div>
-          <div class="lh-lg">
-            <p>I am a Full Stack Web Developer. Interested in working on building good looking and well performing websites.</p>
-          </div>
-        </div>  
+          <p class="lh-lg">I am a computer science graduate and Full Stack Web Developer. Interested in working on building good looking and well performing websites.</p>
       </section>
       <section id="about">
-        <div class="container-fluid">
-          <h4 class="display-4">All About Me</h4>
+          <h4 class="display-4">
+          <div>
+          All About Me
+          </div>
+          </h4>
           <br>
           <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-              <img src="New folder/Image.jpg" alt="This is an my image" width="400" class="img-fluid rounded">
+            <div class="col-lg-12">
+              <img src="New folder/Image.jpg" alt="This is my image" width="400" class="img-fluid rounded">
             </div>
-            <div>
-            <p class="lh-lg"><i>
-              Hi,My Self Mohammed Furkhan Iam computer enthusiastic from My childhood and I am a computer science graduate. I enjoy creating websites and making them live on the Internet. Iam working on different computer languages like
-              <div class="lh-lg">
-              <ul>
-                <b>Front-End:</b>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Bootstrap</li>
-                  <li>JavaScript</li>
-                <b>Back-End:</b>
-                  <li>Java</li>  
-              </ul>    
+          </div> 
+          <br>
+          <p class="lh-lg"><i>
+              Hi,My Self Mohammed Furkhan Iam computer enthusiastic from My childhood and I enjoy creating websites and making them live on the Internet. Iam working on different computer languages like
+            <div class="lh-lg">
+            <ul>
+              <b>Front-End:</b>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Bootstrap</li>
+                <li>JavaScript</li>
+              <b>Back-End:</b>
+                <li>Java</li>  
+            </ul>    
+            </div>
+          </i></p>  
+      </section>
+      <section id="work">
+        <h4 class="display-4">Projects</h4>
+        <div class="container">
+          <div class="row">
+              <div class="col-lg-6 mb-4">
+                  <div class="card">
+                      <img class="card-img-top" src="/New folder/MyPortfolio_Home_Page.jpg" alt="This is myportfolio_home_page image">
+                      <div class="card-body bg-light text-dark">
+                          <h5 class="card-title"><b>My Portfolio</b></h5>
+                          <p class="card-text">
+                            <span>This is my portfolio site to showcase my skills and projects....</span>
+                            <br>
+                            <span><b>Tech Stack:</b> HTML, CSS, Bootstrap</span>
+                          </p>
+                          <button class="button button5"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                          </svg><a id="circle" href="https://github.com/Mohd-Furkhan/www.mohammedfurkhan.com"></a>
+                          </button>
+                          <button class="button button5"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                            <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                            <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"></svg><a id="circle" href="https://mohd-furkhan.github.io/www.mohammedfurkhan.com/"></a>
+                          </button>
+                      </div>
+                  </div>
               </div>
-            </i></p>
-            </div>  
+              <div class="col-lg-6 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="/New folder/Restaurant_Home_Page.JPG" alt="This is restaurant_home_page image">
+                    <div class="card-body bg-light text-dark">
+                        <h5 class="card-title"><b>Restaurant Site Frontend</b></h5>
+                        <p class="card-text">
+                          <span>It's one page online restaurant site only front end....</span>
+                          <br>
+                          <span><b>Tech Stack:</b> HTML, CSS, Bootstrap</span>
+                        </p>
+                        <button class="button button5"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                          <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                        </svg><a id="circle" href="https://github.com/Mohd-Furkhan/www.landmarkfamilyrestaurant.com"></a>
+                        </button>
+                        <button class="button button5"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                          <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0z"/>
+                          <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8zm8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7z"></svg><a id="circle" href="https://mohd-furkhan.github.io/www.landmarkfamilyrestaurant.com/"></a>
+                        </button>
+                    </div>
+                </div>
+              </div>
           </div>
-        </div>  
+        </div>
       </section>
       <section id="contact">
-        <div class="container-fluid">
           <h4 class="display-4">Contact Me</h4>
           <span class="lh-lg">Feel free to contact me wherever is comfortable for you</span>
           <br>
@@ -102,6 +150,7 @@
             </div>
           </div>  
           <br>
+          <h4 class="text-danger">Currently email service is not avaliable!</h4>
           <form>
             <div class="form-group">
               <input type="text" id="username" name="name" placeholder="Name" class="form-control" required>
@@ -113,7 +162,6 @@
               <input type="submit" id="button" name="button" value="Send Message" class="form-control">
             </div>
           </form>
-        </div>
       </section>
   </main>
   <footer class="footer-color">
