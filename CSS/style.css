@@ -1,0 +1,112 @@
+*
+{
+    box-sizing:border-box;
+    list-style:none;
+}
+html,body
+{
+    scroll-behavior:smooth;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+nav div
+{
+    justify-content: end;
+}
+#nav-button:hover
+{
+    background-color: #ddd;
+    color:black;
+}
+section
+{
+    padding:15%;
+    text-align: center;
+    background-color:rgba(33,36,41,255);
+    color:#f9fff2;
+}
+p
+{
+    font-size:x-large;
+}
+b
+{
+    font-size:x-large;
+}
+div ul li
+{
+    font-size:x-large;
+}
+.button5
+{
+    border-radius:50%;
+    width: 45px;
+}
+#circle
+{
+    border-radius:50%;
+}
+.button5:hover
+{
+    color:#ddd;
+    background-color:#000000;   
+}
+.card:hover
+{
+    color:#f9fff2;
+    background-color:#c83a53   
+}
+section div a
+{
+    display:block;
+    color:#f9fff2;
+    text-decoration: none;
+    padding:8px;
+}
+a
+{
+    background-color: black;
+}
+#linkedin-button:hover
+{
+    color:#ddd;
+    background-color:#0A66C2;
+}
+#github-button:hover
+{
+    color:#ddd;
+    background-color:#000000;
+}
+#gmail-button:hover
+{
+    color:#ddd;
+    background-color:#df5043;
+}
+#whatsapp-button:hover
+{
+    color:#ddd;
+    background-color:#25D366;
+}
+input[type="text"],
+input[type="email"],
+input[type="submit"]
+{
+    width:100%;
+    padding:4px;
+    border-radius:5px;
+}
+input[type="submit"]:hover
+{
+    cursor:pointer;
+    color:#ddd;
+    background-color: black;
+}
+.footer-color
+{
+    color:#f9fff2;
+    background-color:black;
+    text-align:center;
+}
