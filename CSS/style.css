@@ -18,14 +18,14 @@ nav div
 }
 #nav-button:hover
 {
-    background-color: #ddd;
-    color:black;
+    background-color:#f9fff2;
+    color:#fe3e58;
 }
 section
 {
     padding:15%;
     text-align: center;
-    background-color:rgba(33,36,41,255);
+    background-color:#17315a;
     color:#f9fff2;
 }
 p
@@ -51,43 +51,43 @@ div ul li
 }
 .button5:hover
 {
-    color:#ddd;
-    background-color:#000000;   
+    color:#f9fff2;
+    background-color:#17315a;   
 }
 .card:hover
 {
     color:#f9fff2;
-    background-color:#c83a53   
+    background-color:#fe3e58;  
 }
 section div a
 {
-    display:block;
+    display:inline-block;
     color:#f9fff2;
     text-decoration: none;
     padding:8px;
 }
 a
 {
-    background-color: black;
+    background-color:#17315a;
 }
 #linkedin-button:hover
 {
-    color:#ddd;
+    color:#f9fff2;
     background-color:#0A66C2;
 }
 #github-button:hover
 {
-    color:#ddd;
+    color:#f9fff2;
     background-color:#000000;
 }
 #gmail-button:hover
 {
-    color:#ddd;
+    color:#f9fff2;
     background-color:#df5043;
 }
 #whatsapp-button:hover
 {
-    color:#ddd;
+    color:#f9fff2;
     background-color:#25D366;
 }
 input[type="text"],
@@ -101,12 +101,12 @@ input[type="submit"]
 input[type="submit"]:hover
 {
     cursor:pointer;
-    color:#ddd;
-    background-color: black;
+    color:#f9fff2;
+    background-color:#17315a;
 }
 .footer-color
 {
     color:#f9fff2;
-    background-color:black;
+    background-color:#17315a;
     text-align:center;
 }
