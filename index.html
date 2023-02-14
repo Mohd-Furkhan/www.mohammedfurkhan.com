@@ -3,7 +3,7 @@
 <head>
     <title>Mohammed Furkhan</title>
     <meta name="description" content="This is my portfolio site to showcase my skills and projects.">
-    <meta name="keywords" content="mohammed furkhan,furkhan,HTML,CSS,Bootstrap,JavaScript,Front End Developer,Web Developer,Full Stack Developer,Nizamabad,Hyderabad">
+    <meta name="keywords" content="mohammed furkhan,furkhan,HTML,CSS,Bootstrap,JavaScript,jQuery,React Js,Java,Python,Front End Developer,Web Developer,Full Stack Developer,Nizamabad,Hyderabad">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Mohammed Furkhan">
@@ -19,28 +19,35 @@
   <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="https://mohd-furkhan.github.io/www.mohammedfurkhan.com/"><h3>&lt;/<span style="color:#fe3e58;">Mohammed Furkhan</span>&gt;</h3></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
         <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav text-center">
-          <li class="nav-item">
-            <a class="nav-link active" id="nav-button" href="#home">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="nav-button" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="nav-button" href="#work">Work</a>
-          </li> 
-          <li class="nav-item">
-            <a class="nav-link" id="nav-button"  href="#contact">Contact</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="nav-button" href="assets/Resume.pdf" target="_blank">Resume</a>
-          </li>
-        </ul>
+      </button>
+      <div class="offcanvas offcanvas-end" id="offcanvasNavbar">
+        <div class="offcanvas-header" style="background-color: #17315a; color: #f9fff2;">
+          <h3 class="offcanvas-title" id="offcanvasNavbarLabel">&lt;/<span style="color:#fe3e58;">Mohammed Furkhan</span>&gt;</h3>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
         </div>
+        <div class="offcanvas-body" style=" background-color:#17315a;">
+          <ul class="navbar-nav text-center">
+            <li class="nav-item">
+              <a class="nav-link active" id="nav-button" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-button" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-button" href="#work">Work</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" id="nav-button" href="#skills">Skills</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" id="nav-button"  href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="nav-button" href="assets/Resume.pdf" target="_blank">Resume</a>
+        </div>
+      </div>
     </div>
   </nav>
   <main>
@@ -51,7 +58,7 @@
             <div class="col-lg-12">
               <img src="assets/Furkhan.png" alt="This is my image" width="500" class="img-fluid rounded">
             </div>
-          <p class="lh-lg">I am a computer science graduate and Frontend Developer. Interested in working on building good looking and well performing websites. <br> <a href="#contact"><button type="button" class="btn btn-lg" style="background-color:#fe3e58; color:#f9fff2;">Hire Me</button></a> </p>
+          <p class="lh-lg">I am a computer science graduate and Frontend Developer. Interested in working on building good looking and well performing websites. <br> <a href="#contact"><button type="button" class="btn btn-lg" style="background-color:#f9fff2; color: #fe3e58;">Hire Me</button></a> </p>
       </section>
       <section id="about">
           <h4 class="display-4">
@@ -67,21 +74,25 @@
           </div> 
           <br>
           <p class="lh-lg"><i>
-              Hi,My Self <b style="color:#fe3e58;">Mohammed Furkhan</b> Iam computer enthusiastic from My childhood and I enjoy creating websites and making them live on the Internet. Iam working on different computer languages like
-            <div class="lh-lg">
-            <ul>
-              <b style="color:#fe3e58;">Front-End:-</b>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Bootstrap</li>
-                <li>JavaScript</li>
-                <li>jQuery</li>
-                <li>React Js</li>
-              <b style="color:#fe3e58;">Back-End:-</b>
-                <li>Java</li>
-                <li>Python</li>
-            </ul>    
-            </div>
+              Hi,My Self <b style="color:#fe3e58;">Mohammed Furkhan</b> Iam computer enthusiastic from My childhood and I enjoy creating websites and making them live on the Internet.
+              <h2 style="background-color:#b1c9ee; color: #101218;">Education & Experience</h2>
+              <br>
+              <div class="row">
+                <div class="col-lg-6 mb-4">
+                  <div style="background-color:#17315a;">
+                    <h5><b>B.TECH [JNTUH]</b></h5>
+                    <h6>2018 - 2021</h6>
+                    <p><span>B.Tech in Computer Science and Engineering</span></p>
+                  </div>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div style="background-color:#17315a;">
+                      <h5><b>BUSINESS WEB SOLUTIONS</b></h5>
+                      <h6>30 NOV 2022 - 30 JAN 2023</h6>
+                      <p><span>Worked as a Full Stack Web Development INTERN</span></p>
+                    </div>
+                </div>
+              </div>
           </i></p>  
       </section>
       <section id="work">
@@ -91,7 +102,7 @@
           <div class="row">
               <div class="col-lg-6 mb-4">
                   <div class="card">
-                      <img class="card-img-top" src="assets/MyPortfolio_Home_Page.png" alt="This is myportfolio_home_page image">
+                      <img class="card-img-top" src="assets/MyPortfolio_Home_Page.jpg" alt="This is myportfolio_home_page image">
                       <div class="card-body bg-light text-dark">
                           <h5 class="card-title"><b>My Portfolio</b></h5>
                           <p class="card-text">
@@ -154,6 +165,80 @@
             </div>
           </div>
         </div>
+      </section>
+      <section id="skills">
+        <h4 class="display-4">My Skills</h4>
+        <br>
+        <h2 style="background-color:#b1c9ee; color: #101218;">Front-End:-</h2>
+        <hr>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="card"  style=" background-color:#17315a;">
+              <img src="/GitHub/My Portfolio Website/assets/HTML.png" alt="This is html image">
+              <h5><b>HTML</b></h5>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card"  style=" background-color:#17315a;">
+              <img src="/GitHub/My Portfolio Website/assets/CSS.png" alt="This is css image">
+              <h5><b>CSS</b></h5>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card"  style=" background-color:#17315a;">
+              <img src="/GitHub/My Portfolio Website/assets/Bootstrap.png" alt="This is bootstrap image">
+              <h5><b>Bootstrap</b></h5>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card"  style=" background-color:#17315a;">
+              <img src="/GitHub/My Portfolio Website/assets/JavaScript.png" alt="This is javascript image">
+              <h5><b>JavaScript</b></h5>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card"  style=" background-color:#17315a;">
+              <img src="/GitHub/My Portfolio Website/assets/jQuery.png" alt="This is jquery image">
+              <h5><b>jQuery</b></h5>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card"  style=" background-color:#17315a;">
+              <img src="/GitHub/My Portfolio Website/assets/React Js.png" alt="This is react js image">
+              <h5><b>React Js</b></h5>
+            </div>
+          </div>
+        </div>
+        <h2 style="background-color:#b1c9ee; color: #101218;">Back-End:-</h2>
+        <hr>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="card"  style=" background-color:#17315a;">
+              <img src="/GitHub/My Portfolio Website/assets/Java.png" alt="This is java image">
+              <h5><b>Java</b></h5>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card"  style=" background-color:#17315a;">
+              <img src="/GitHub/My Portfolio Website/assets/Python.png" alt="This is python image">
+              <h5><b>Python</b></h5>
+            </div>
+          </div>
+        <h2 style="background-color:#b1c9ee; color: #101218;">Tools:-</h2>
+        <hr>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="card"  style=" background-color:#17315a;">
+              <img src="/GitHub/My Portfolio Website/assets/GitHub.png" alt="This is github image">
+              <h5><b>GitHub</b></h5>
+            </div>
+          </div>
+          <div class="col-md-2">
+            <div class="card"  style=" background-color:#17315a;">
+              <img src="/GitHub/My Portfolio Website/assets/Visual Studio Code.png" alt="This is visual studio code image">
+              <h5><b>VSCode</b></h5>
+            </div>
+          </div>
       </section>
       <section id="contact">
           <h4 class="display-4">Contact Me</h4>
