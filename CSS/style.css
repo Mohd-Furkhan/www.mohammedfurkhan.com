@@ -23,10 +23,20 @@ nav div
 }
 section
 {
-    padding:15%;
+    padding-top: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 5%;
     text-align: center;
     background-color:#17315a;
     color:#f9fff2;
+}
+@media (max-width:540px)
+{
+    section
+    {
+        padding: 15%;
+    }
 }
 p
 {
