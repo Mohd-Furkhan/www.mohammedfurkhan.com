@@ -18,6 +18,7 @@ nav div
 }
 #nav-button:hover
 {
+    border-radius: 4px;
     background-color:#f9fff2;
     color:#fe3e58;
 }
