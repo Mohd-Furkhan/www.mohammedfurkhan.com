@@ -79,6 +79,7 @@ section div a
 }
 a
 {
+    border-radius: 4px;
     background-color:#17315a;
 }
 #linkedin-button:hover
