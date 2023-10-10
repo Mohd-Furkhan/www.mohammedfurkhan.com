@@ -47,6 +47,10 @@ b
 {
     font-size:x-large;
 }
+h2
+{
+     border-radius: 4px;
+}
 div ul li
 {
     font-size:x-large;
