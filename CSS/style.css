@@ -39,6 +39,11 @@ section
         padding: 15%;
     }
 }
+@media (max-width: 768px) {
+  .btn.position-fixed {
+    z-index: 1050 !important; 
+  }
+}
 p
 {
     font-size:x-large;
