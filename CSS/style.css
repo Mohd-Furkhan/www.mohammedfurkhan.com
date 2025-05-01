@@ -39,7 +39,7 @@ section
         padding: 15%;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 540px) {
   .btn.position-fixed {
     z-index: 1050 !important; 
   }
